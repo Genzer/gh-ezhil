@@ -1,5 +1,5 @@
 body {
-    font-family: "ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     color: #333;
     line-height: 1.6;
@@ -89,7 +89,7 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: raleway,sans-serif;
+    /* font-family: raleway,sans-serif; */
     line-height: 1.2;
     color: #333;
     font-weight: 200;
@@ -191,7 +191,12 @@ ul {
     background-color: #FAFAFA;
 }
 
+code {
+  font-family: "JetBrains Mono", monospace;
+}
+
 pre code {
+  font-family: "JetBrains Mono", monospace;
   display: inline-block;
 }
   
@@ -278,7 +283,7 @@ pre code {
 .recent-posts .posts .post .meta,
 .post .post-header .meta,
 .list .posts .post .meta {
-    font-size: 0.725rem;
+    font-size: 0.900rem;
     color: #999;
     margin-bottom: 4px;
 }
