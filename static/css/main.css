@@ -1,19 +1,26 @@
+:root {
+  --primary-text-color: #2d3436;
+  --secondary-text-color: #c5001d;
+  --accent-color: #a00;
+  --heading-font-size-base: 1em;
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
-    color: #333;
+    color: var(--primary-text-color);
     line-height: 1.6;
     font-size: 16px;
 }
 
 a, a:hover {
-    color: #a00;
+    color: var(--accent-color);
     text-decoration: none;
     word-break: break-word;
 }
 
 html,button,input,select,textarea {
-    color: #333;
+    color: var(--primary-text-color);
 }
 
 ::-moz-selection {
@@ -63,10 +70,10 @@ textarea {
 blockquote {
     margin-left: 1rem;
     font-style: italic;
-    font-size: 1.4rem;
-    font-family: Georgia,bitstream charter,serif;
-    border-left: 3px solid;
-    border-color: #a00;
+    font-size: 1.1rem;
+    font-family: Georgia, serif;
+    border-left: 2px solid;
+    border-color: var(--accent-color);
     padding-left: 20px;
 }
 
@@ -80,7 +87,7 @@ blockquote em {
 }
 
 a,a:hover {
-    color: #a00;
+    color: var(--accent-color);
     text-decoration: none
 }
 
@@ -89,30 +96,32 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    /* font-family: raleway,sans-serif; */
     line-height: 1.2;
-    color: #333;
+    color: var(--primary-text-color);
     font-weight: 200;
 }
 
 h1 {
-    font-size: 2.75rem;
+    /* font-size: 2.75rem; */
+    font-size: calc(var(--heading-font-size-base) * 1.6);
 }
 
 h2 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: calc(var(--heading-font-size-base) * 1.46);
 }
 
 h3 {
-    font-size: 1.6rem;
+    /* font-size: 1.3rem; */
+    font-size: calc(var(--heading-font-size-base) * 1.21);
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: calc(var(--heading-font-size-base) * 1.1);
 }
 
 h5 {
-    font-size: 1rem;
+    font-size: var(--heading-font-size-base);
 }
 
 h6 {
@@ -176,7 +185,7 @@ ul {
 }
 
 .site-title a {
-	color: #333;
+	color: var(--primary-text-color);
 	text-decoration: none !important;
 }
 
@@ -316,7 +325,7 @@ pre code {
 }
 
 .post .draft-label {
-    color: #a00;
+    color: var(--accent-color);
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -331,10 +340,10 @@ pre code {
 
 .post-tags .tags a {
     display: inline-block;
-    border: 1px solid #a00;
+    border: 1px solid var(--accent-color);
     border-radius: 4px;
     padding: 0px 6px;
-    color: #a00;
+    color: var(--accent-color);
     line-height: 20px;
     font-size: 12px;
     text-decoration: none;
