@@ -1,13 +1,12 @@
-# Ezhil
+# Grokhard-Flavored Ezhil
 
 Clean and minimal personal blog and portfolio theme for Hugo.
 
+This theme is a fork and is intentionally modified to use for my personal Hugo site: https://grokhard.com.
+
 ## Demo
 
-[View demo](https://ezhil-hugo.netlify.com/)
-
-![Screenshot](images/screenshot-light.png "Ezhil light theme")
-![Screenshot](images/screenshot-dark.png "Ezhil dark theme")
+[View Demo](https://grokhard.com).
 
 ## Features
 
@@ -22,17 +21,6 @@ Clean and minimal personal blog and portfolio theme for Hugo.
 * Disqus comments
 * Hugo RSS feeds
 * Custom CSS/JS
-
-## Installation
-
-From your Hugo site run the following.
-
-```sh
-cd themes
-git clone https://github.com/vividvilla/ezhil.git
-```
-
-For more information read the [official setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
 ## Configuration
 
