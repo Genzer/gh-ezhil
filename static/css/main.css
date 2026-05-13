@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Merriweather", serif;
     font-weight: 400;
     color: var(--primary-text-color);
     line-height: 1.6;
@@ -71,7 +71,7 @@ blockquote {
     margin-left: 1rem;
     font-style: italic;
     font-size: 1.1rem;
-    font-family: Georgia, serif;
+    font-family: "Merriweather", serif;
     border-left: 2px solid;
     border-color: var(--accent-color);
     padding-left: 20px;
@@ -186,6 +186,7 @@ ul {
 }
 
 .site-title a {
+	font-family: "Ubuntu", sans-serif;
 	color: var(--primary-text-color);
 	text-decoration: none !important;
 }
