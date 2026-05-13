@@ -181,8 +181,8 @@ ul {
   height: 64px;
 
   float: left;
-  padding-right: 8px;
-  margin: 0;
+  padding: 0;
+  margin: 0 2px;
 }
 
 .site-title a {
