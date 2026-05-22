@@ -3,10 +3,12 @@
   --secondary-text-color: #c5001d;
   --accent-color: #a00;
   --heading-font-size-base: 1em;
+  --primary-font-family: "Merriweather", serif;
+  --site-title-font-family: "Ubuntu", sans-serif;
 }
 
 body {
-    font-family: "Merriweather", serif;
+    font-family: var(--primary-font-family);
     font-weight: 400;
     color: var(--primary-text-color);
     line-height: 1.6;
@@ -181,12 +183,12 @@ ul {
   height: 64px;
 
   float: left;
-  padding: 0;
-  margin: 0 2px;
+  padding-right: 2px;
+  margin-right: 2px;
 }
 
 .site-title a {
-	font-family: "Ubuntu", sans-serif;
+	font-family: var(--site-title-font-family); 
 	color: var(--primary-text-color);
 	text-decoration: none !important;
 }
@@ -197,6 +199,11 @@ ul {
 
 .post ul li p {
     display: inline;
+}
+
+/* Show as links only on the main page */
+.posts .post .title {
+  text-decoration: underline;
 }
 
 .highlight pre {
@@ -274,6 +281,10 @@ pre code {
 .header .site-description {
     display: flex;
     justify-content: space-between;
+}
+
+.header .site-description h2 {
+  font-family: var(--site-title-font-family);
 }
 
 .header .site-description nav {
